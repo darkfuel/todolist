@@ -1,0 +1,44 @@
+body{
+    margin: 150px; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+h2 {
+    color:dimgrey;
+    margin-left: 40px;
+}
+.add {
+    text-align: center;
+
+}
+.add input{
+    width: 50%;
+}
+.add button{
+    margin-left: 20px;
+    width: 30%;
+    height: 25px;
+    border-radius: 30px;
+    background-color: #6adc8e;
+}
+main{
+    padding-top: 10px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    background-color: rgb(241, 241, 241);
+}
+.contadores p{
+ margin: 3px;
+}
+.contadores p span{
+    font-weight: 900;
+}
+table th{
+    padding: 8px;
+}
+table button{
+    border:none;
+    color: red;
+    font-weight: bolder;
+}
